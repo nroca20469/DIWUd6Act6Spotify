@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #FFCF99;
+}
+
+header {
+    background-color: #FFCF99;
+    padding-block: 2%;
+    text-align: center;
+    color: #256D1B;    
+    margin-bottom: 2%;  
+}
+
+#container {
+    width: 80%;
+    margin-inline: 10%;
+}
+
+#container #artists, #songs {
+    float: left;
+    width: 40%;
+    margin-inline: 5%;
+    text-align: center;
+}
+
+#container h4 {
+    color: #8baaad;
+    background-color: #1E1E24;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+#finder {
+    width: 90%;
+    margin-inline: 5%;
+    text-align: center;
+    padding: 2%;
+}
+
+#finder input, button {
+    padding: 1%;
+    border-radius: 7px;
+    /* background-color: #9D695A; */
+    color: #9D695A;
+    border: 1px solid #9D695A;
+}
+
+#finder button {
+    background-color: #1E1E24;
+    color: #FFCF99;
+}
+
+#cantantes       {
+    margin-top: 10%;
+}
+
+a {
+    /* color: #9D695A; */
+    text-decoration: none;
+}
+
+a h3, a p {
+    color: #1E1E24;
+
+}
